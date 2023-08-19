@@ -1,0 +1,99 @@
+.navbar {
+    background-color: rgb(61, 51, 236);
+    width: 100%;
+    height: 60px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.navbar li {
+  color: white;
+  font-size: x-large;
+}
+.heading {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+.form {
+   
+   
+    height: 380px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px, rgba(0, 0, 0, 0.1) 0px 2px 16px;
+    padding: 10px;
+    
+}
+.form2{
+    height: 180px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px, rgba(0, 0, 0, 0.1) 0px 2px 16px;
+    padding: 10px;
+}
+.form2 input{
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px ;
+    border: 1px solid rgb(238, 233, 233);
+    padding: 5px;
+}
+.form2 input:hover {
+    border: 2px solid rgb(136, 255, 0);
+}
+.form input {
+    
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px ;
+    border: 1px solid rgb(238, 233, 233);
+    padding: 5px;
+}
+.form input:hover {
+    border: 2px solid rgb(246, 5, 5);
+}
+button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: blueviolet;
+    margin: 5px;
+}
+button:hover{
+    width: 110px;
+}
+.dashboard {
+    height: 280px;
+    width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px, rgba(0, 0, 0, 0.1) 0px 2px 16px;
+    padding: 10px; 
+}
+.dashboard input {
+    margin: 5px;
+    width: 900px;
+    height: 40px;
+    border-radius: 6px ;
+    border: 1px solid rgb(193, 189, 189);
+    padding: 5px;
+}
+textarea {
+    border: 1px solid rgb(195, 191, 191);
+    margin: 5px;
+    border-radius: 6px;
+
+}
+.dshbtn {
+    margin-left: 0%;
+}
+.dashboard input:hover {
+    border: 2px solid blue;
+}
+.dashboard textarea:hover {
+    border: 2px solid rgb(255, 0, 0);
+}
